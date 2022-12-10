@@ -1,6 +1,6 @@
 # View live site
 
-To view the live site, [Click here](https://6394c54807648c4ce5100238--bespoke-melomakarona-5ee2c5.netlify.app/register/profile)
+To view the live site, [Click here](https://bespoke-melomakarona-5ee2c5.netlify.app/)
 
 # Getting Started with Create React App
 
