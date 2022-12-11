@@ -1,3 +1,7 @@
+# View live site
+
+To view the live site, [Click here](https://bespoke-melomakarona-5ee2c5.netlify.app/)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
