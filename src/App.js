@@ -17,7 +17,7 @@ function App() {
       <Router>
         <Sidebar />
         <Routes>
-          <Route path='/register/profile' element={< Profileinfo user={user} setUser={setUser}/>}/>
+          <Route path='/' element={< Profileinfo user={user} setUser={setUser}/>}/>
           <Route path='/register/plan' element={< Selectplan />}/>
           <Route path='/register/addons' element={< Addons />}/>
           <Route path='/register/summary' element={< Summary />}/>

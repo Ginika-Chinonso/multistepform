@@ -42,7 +42,7 @@ const Selectplan = () => {
                 <p className="font-bold text-marine-blue">Monthly <span><Togglebutton /></span> Yearly </p>
             </section>
             <section className="flex justify-between p-7">
-                <Link to='/register/profile' className='text-neutral-400 hover:text-marine-blue'>Go Back</Link>
+                <Link to='/' className='text-neutral-400 hover:text-marine-blue'>Go Back</Link>
                 <Link to='/register/addons' className='border px-4 py-2 bg-marine-blue text-white rounded-lg'>Next Step</Link>
             </section>
         </div>

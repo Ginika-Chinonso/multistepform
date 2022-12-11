@@ -7,7 +7,7 @@ const Sidebar = () => {
             <nav className="">
                 <ul className='flex md:flex-col place-content-evenly gap-8'>
                     <li>
-                        <NavLink to='/register/profile' className="flex">
+                        <NavLink to='/' className="flex">
                             <p className='border h-7 w-7 rounded-full text-center hover:bg-light-blue'>1</p>
                             <div className="hidden md:block">
                                 STEP 1 <span className="block font-bold">YOUR INFO</span>
