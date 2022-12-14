@@ -1,7 +1,8 @@
 import { React } from 'react';
+import { Plans } from '../assets/data/data';
 import { Link } from 'react-router-dom';
 
-const Summary = () => {
+const Summary = ({user, setUser}) => {
     return (
         <div className="mx-auto">
             <section className="py-7">
@@ -12,26 +13,26 @@ const Summary = () => {
                 <div className='bg-neutral-100 p-3 rounded-lg'>
                     <div className='flex place-content-between p-3'>
                         <div className=''>
-                            <h1 className='font-bold'>Arcade (Monthly)</h1>
+                            <h1 className='font-bold'>{user.GamePlan} ({user.Plan})</h1>
                             <p className='text-sm text-neutral-400'>Change</p>
                         </div>
-                        <p>$9/mo</p>
+                        <p>${ Plans.monthly.Advanced }/{(user.Plan === 'monthly') ? 'mo' : 'yr'}</p>
                     </div>
                     <hr />
                     <div className='p-3 flex flex-col'>
                         <div className='text-sm py-1 flex place-content-between'>
                             <p className='text-neutral-400'>Online service</p>
-                            <p>$/mo</p>
+                            <p>${Plans.monthly.Advanced}/{(user.Plan === 'monthly') ? 'mo' : 'yr'}</p>
                         </div>
                         <div className='text-sm py-1 flex place-content-between'>
                             <p className='text-neutral-400'>Larger storage</p>
-                            <p>$/mo</p>
+                            <p>${Plans.monthly.Advanced}/{(user.Plan === 'monthly') ? 'mo' : 'yr'}</p>
                         </div>
                     </div>
                 </div>
                 <div className='p-5 flex place-content-between'>
                     <p className='text-sm text-neutral-300'>Total (per month)</p>
-                    <p className='text-sm text-purplish-blue font-bold'>$/mo</p>
+                    <p className='text-sm text-purplish-blue font-bold'>${Plans.monthly.Advanced}/{(user.Plan === 'monthly') ? 'mo' : 'yr'}</p>
                 </div>
             </section>
             <section className="flex justify-between p-7">
